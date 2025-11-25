@@ -24,6 +24,7 @@ This project contains a Python script (`generate_data.py`) that generates synthe
 ### Galaxy Schema
 The data follows a **Galaxy Schema** (Fact Constellation), where multiple Fact tables share Dimension tables.
 
+<img width="1104" height="751" alt="image" src="https://github.com/user-attachments/assets/7f1ac1a7-062d-4f6e-9dd9-67daea6bc991" />
 
 
 ```mermaid
@@ -72,6 +73,8 @@ erDiagram
 Example of the dashboard connected to the generated data.
 
 <img width="1163" height="659" alt="dashboard_preview" src="https://github.com/user-attachments/assets/74c69304-0594-46a9-a785-5393ad1b7e43" />
+
+<img width="1162" height="660" alt="image" src="https://github.com/user-attachments/assets/e4cd1fff-f804-49f7-9c7b-592cd0bf1739" />
 
 
 
