@@ -25,7 +25,7 @@ This project contains a Python script (`generate_data.py`) that generates synthe
 The data follows a **Galaxy Schema** (Fact Constellation), where multiple Fact tables share Dimension tables.
 
 <div align="center">
-  <img src="./pbi/galaxy_schema.png" alt="Galaxy Schema Diagram" width="700">
+  <img src="https://github.com/hsnchez/inventory-sales-dashboard/blob/main/pbi/galaxy_schema.png?raw=true" alt="Galaxy Schema Diagram" width="700">
   <p><em>Galaxy Schema Representation</em></p>
 </div>
 
@@ -75,7 +75,7 @@ erDiagram
 Example of the dashboard connected to the generated data.
 
 <div align="center">
-  <img src="./pbi/dashboard_preview.png" alt="PowerBI Dashboard" width="800">
+  <img src="https://github.com/hsnchez/inventory-sales-dashboard/blob/main/pbi/dashboard_preview.png?raw=true" alt="PowerBI Dashboard" width="800">
 </div>
 
 ### Generated Tables
