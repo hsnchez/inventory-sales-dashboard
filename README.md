@@ -24,8 +24,7 @@ This project contains a Python script (`generate_data.py`) that generates synthe
 ### Galaxy Schema
 The data follows a **Galaxy Schema** (Fact Constellation), where multiple Fact tables share Dimension tables.
 
-![Galaxy Schema Diagram](https://github.com/hsnchez/inventory-sales-dashboard/blob/main/pbi/galaxy_schema.png?raw=true)
-*Galaxy Schema Representation*
+
 
 ```mermaid
 erDiagram
@@ -72,7 +71,9 @@ erDiagram
 ### PowerBI Dashboard
 Example of the dashboard connected to the generated data.
 
-![PowerBI Dashboard](https://github.com/hsnchez/inventory-sales-dashboard/blob/main/pbi/dashboard_preview.png?raw=true)
+<img width="1163" height="659" alt="dashboard_preview" src="https://github.com/user-attachments/assets/74c69304-0594-46a9-a785-5393ad1b7e43" />
+
+
 
 ### Generated Tables
 1.  **dim_products.csv** (`Dim_Productos`): Product catalog with costs and prices.
