@@ -1,0 +1,14 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Generated Data (No subas los datos, sube el generador)
+output/
+
+# OS specific
+.DS_Store
