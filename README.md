@@ -31,43 +31,43 @@ The data follows a **Galaxy Schema** (Fact Constellation), where multiple Fact t
 
 ```mermaid
 erDiagram
-    Dim_Products ||--o{ Fact_Sales : "is sold in"
-    Dim_Products ||--o{ Fact_Inventory_Movements : "has movement"
-    Dim_Channels ||--o{ Fact_Sales : "facilitates"
-    Dim_Dates ||--o{ Fact_Sales : "happens on"
-    Dim_Dates ||--o{ Fact_Inventory_Movements : "happens on"
+    Dim_Productos ||--o{ Fact_Ventas : "se vende en"
+    Dim_Productos ||--o{ Fact_Movimientos : "tiene movimiento"
+    Dim_Canales ||--o{ Fact_Ventas : "facilita"
+    Dim_Fechas ||--o{ Fact_Ventas : "ocurre en"
+    Dim_Fechas ||--o{ Fact_Movimientos : "ocurre en"
 
-    Dim_Products {
-        string Product_ID
-        string Product_Name
-        string Category
-        float Product_Cost
-        float Sale_Price
+    Dim_Productos {
+        string ID_Producto
+        string Nombre_Producto
+        string Categoria
+        float Costo_Producto
+        float Precio_Venta
     }
-    Dim_Channels {
-        int Channel_ID
-        string Channel_Name
+    Dim_Canales {
+        int ID_Canal
+        string Nombre_Canal
     }
-    Dim_Dates {
-        date Date
-        int Year
-        int Month
-        string Month_Name
+    Dim_Fechas {
+        date Fecha
+        int Año
+        int Mes
+        string Nombre_Mes
     }
-    Fact_Sales {
-        int Sale_ID
-        date Date
-        string Product_ID
-        int Channel_ID
-        int Quantity_Sold
-        float Total_Sale
+    Fact_Ventas {
+        int ID_Venta
+        date Fecha
+        string ID_Producto
+        int ID_Canal
+        int Cantidad_Vendida
+        float Total_Venta
     }
-    Fact_Inventory_Movements {
-        int Movement_ID
-        date Date
-        string Product_ID
-        string Movement_Type
-        int Quantity
+    Fact_Movimientos {
+        int ID_Movimiento
+        date Fecha
+        string ID_Producto
+        string Tipo_Movimiento
+        int Cantidad
     }
 ```
 
