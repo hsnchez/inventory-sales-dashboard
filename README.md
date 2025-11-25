@@ -72,9 +72,11 @@ erDiagram
 ### PowerBI Dashboard
 Example of the dashboard connected to the generated data.
 
-<img width="1163" height="659" alt="dashboard_preview" src="https://github.com/user-attachments/assets/74c69304-0594-46a9-a785-5393ad1b7e43" />
+
 
 <img width="1162" height="660" alt="image" src="https://github.com/user-attachments/assets/e4cd1fff-f804-49f7-9c7b-592cd0bf1739" />
+
+<img width="1169" height="664" alt="image" src="https://github.com/user-attachments/assets/bb1a950e-685e-465c-9bce-e461097be0a4" />
 
 
 
