@@ -73,10 +73,10 @@ erDiagram
 Example of the dashboard connected to the generated data.
 
 
+<img width="1250" height="705" alt="image" src="https://github.com/user-attachments/assets/d7ee0b51-e84a-4127-a28c-ca573566eace" />
 
-<img width="1162" height="660" alt="image" src="https://github.com/user-attachments/assets/e4cd1fff-f804-49f7-9c7b-592cd0bf1739" />
+<img width="1253" height="708" alt="image" src="https://github.com/user-attachments/assets/c31eb960-37bf-4dee-a14c-d0413d9dd903" />
 
-<img width="1169" height="664" alt="image" src="https://github.com/user-attachments/assets/bb1a950e-685e-465c-9bce-e461097be0a4" />
 
 
 
